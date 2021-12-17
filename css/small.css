@@ -1,0 +1,39 @@
+@media only screen and (max-width: 765px) {
+    
+    :root {
+        --hero-img: url(images/knight.jpg);
+    }
+
+    header {
+        padding: 0;
+    }
+
+    header nav ul.open {
+        display: flex;
+        flex-direction: column;
+    }
+    header nav ul.open li {
+        display: block;
+        flex-direction: column;
+    }
+
+    header nav ul {
+        padding: 0;
+        justify-content: start;
+    }
+
+    header nav ul li {
+        display: none;
+        padding: 0.8rem 0;
+    }
+
+    button#hamburgerBtn {
+        background: none;
+        border: none;
+        color: #ffeb7a;
+        font-size: 2.4rem;
+        cursor: pointer;
+        padding: 0 30px 0 2vw;
+    }
+
+}

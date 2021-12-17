@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1024px) {
+    
+    :root {
+        --hero-img: url(images/castle2.jpg);
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+    }
+}

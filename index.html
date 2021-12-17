@@ -10,23 +10,29 @@
     <script src="https://kit.fontawesome.com/ab8e9cdb96.js" crossorigin="anonymous"></script>
     <link rel="icon" href="images/dragon-solid.svg" type="image/svg">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 
 <body>
     
     <header>
         <nav>
+            <ul id="primaryNav">
+                <button type="button" id="hamburgerBtn">&#9776;</button>
                 <li><i class="fas fa-dragon"></i></li>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#knights">Knights</a></li>
                 <li>Quiz</li>
+            </ul>
         </nav>
     </header>
 
 
     <main>
         <section id="home" class="home">
-            <section id="hero" class="hero" style="background-image: url('images/castle2.jpg')" title="Camelot Castle">
+            <section id="hero" class="hero" style="background-image: var(--hero-img)" title="Camelot Castle">
             </section>
                 <h1>Welcome to Camelot</h1>
             <p>
@@ -85,6 +91,7 @@
         <p>&copy;XXX Alexander Murray</p>
     </footer>
 
+    <script src="js/menuToggle.js"></script>
 </body>
 
 </html>

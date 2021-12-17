@@ -1,0 +1,41 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    :root {
+        --hero-img: url(images/castle2.jpg);
+    }
+
+    header {
+        float: left;
+        width: 10%;
+        height: 100%;
+        top: 0; 
+        left: 0;
+        z-index: 0;
+    }
+
+    nav button {
+        display: none;
+    }
+    
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    header nav ul li {
+        margin: 0;
+        padding: 50% 0;
+    }
+
+    section {
+        padding-top: 0;
+    }
+
+    .hero {
+        height: 35vw;
+    }
+
+ 
+}
