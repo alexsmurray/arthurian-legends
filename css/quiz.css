@@ -38,22 +38,22 @@ button:hover{
 
 
 #next {
-    position: fixed;
-    right: 100px;
-    margin-top: 50px;
+    position: absolute;
+    right: 15%;
+    margin-top: 100px;
 }
 
 
 #previous {
-    position: fixed;
-    left: 100px;
-    margin-top: 50px;
+    position: absolute;
+    left: 15%;
+    margin-top: 100px;
 }
 
 #submit {
-    position: fixed;
-    right: 100px;
-    margin-top: 50px;
+    position: absolute;
+    right: 15%;
+    margin-top: 100px;
 }
 
 
@@ -72,7 +72,11 @@ button:hover{
     z-index: 2;
   }
   .quiz-container{
-    position: relative;
-    height: 200px;
+    position: relative; 
+    height: 250px;
     margin-top: 40px;
+  }
+
+  #results {
+      margin-top: 20px;
   }
